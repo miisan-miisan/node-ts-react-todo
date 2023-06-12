@@ -1,3 +1,16 @@
+# 手順
+
+npx create-react-app my-form-app --template typescript
+
+npm install json-server axios
+
+(.babelrc
+npm install @babel/preset-env @babel/preset-react @babel/preset-typescript --save-dev)
+
+npm start
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
