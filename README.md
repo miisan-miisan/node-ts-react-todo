@@ -9,6 +9,11 @@ npm install @babel/preset-env @babel/preset-react @babel/preset-typescript --sav
 
 npm start
 
+# サーバ立ち上げ
+node server.js
+# フロント立ち上げ
+npm start
+
 
 
 # Getting Started with Create React App
