@@ -9,8 +9,18 @@ npm install @babel/preset-env @babel/preset-react @babel/preset-typescript --sav
 
 npm start
 
+#　必要パッケージ
+npm install express axios
+
+#　テーブル作成（DBはtodo_app）
+CREATE TABLE tasks (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL
+);
+
 # サーバ立ち上げ
 node server.js
+
 # フロント立ち上げ
 npm start
 
